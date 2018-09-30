@@ -86,6 +86,8 @@
 
 #define XPAD_PKT_LEN 64
 
+#define CONFIG_JOYSTICK_XPAD_LEDS 1
+
 /*
  * xbox d-pads should map to buttons, as is required for DDR pads
  * but we map them to axes when possible to simplify things
