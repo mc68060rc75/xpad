@@ -86,7 +86,6 @@
 
 #define XPAD_PKT_LEN 64
 
-#define CONFIG_JOYSTICK_XPAD_LEDS 1
 
 /*
  * xbox d-pads should map to buttons, as is required for DDR pads
@@ -247,7 +246,7 @@ static const struct xpad_device {
 	{ 0x0e8f, 0x3008, "Generic xbox control (dealextreme)", 0, XTYPE_XBOX },
 	{ 0x0f0d, 0x0001, "Hori Fighting Stick EX", MAP_TRIGGERS_TO_BUTTONS, XTYPE_XBOX },
 	{ 0x0f0d, 0x000a, "Hori Co. DOA4 FightStick", 0, XTYPE_XBOX360 },
-	{ 0x0f0d, 0x000c, "Hori PadEX Turbo", 0, XTYPE_XBOX360 },
+	{ 0x0f0d, 0x000c, "Hori PadEX Turbo BLUE", 0, XTYPE_XBOX360 },
 	{ 0x0f0d, 0x000d, "Hori Fighting Stick EX2", MAP_TRIGGERS_TO_BUTTONS, XTYPE_XBOX360 },
 	{ 0x0f0d, 0x0016, "Hori Real Arcade Pro.EX", MAP_TRIGGERS_TO_BUTTONS, XTYPE_XBOX360 },
 	{ 0x0f0d, 0x001b, "Hori Real Arcade Pro VX", MAP_TRIGGERS_TO_BUTTONS, XTYPE_XBOX360 },
