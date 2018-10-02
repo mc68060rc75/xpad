@@ -244,7 +244,7 @@ static const struct xpad_device {
 	{ 0x0e6f, 0xf900, "PDP Afterglow AX.1", 0, XTYPE_XBOX360 },
 	{ 0x0e8f, 0x0201, "SmartJoy Frag Xpad/PS2 adaptor", 0, XTYPE_XBOX },
 	{ 0x0e8f, 0x3008, "Generic xbox control (dealextreme)", 0, XTYPE_XBOX },
-	{ 0x0f0d, 0x0001, "Hori Fighting Stick EX", 0, XTYPE_XBOX },
+	{ 0x0f0d, 0x0001, "Hori Fighting Stick EX", MAP_STICKS_TO_NULL, XTYPE_XBOX },
 	{ 0x0f0d, 0x000a, "Hori Co. DOA4 FightStick", 0, XTYPE_XBOX360 },
 	{ 0x0f0d, 0x000c, "Hori PadEX Turbo BLUE", 0, XTYPE_XBOX360 },
 	{ 0x0f0d, 0x000d, "Hori Fighting Stick EX2", MAP_TRIGGERS_TO_BUTTONS, XTYPE_XBOX360 },
